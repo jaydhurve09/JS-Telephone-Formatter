@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: "Poppins", serif;
+    padding: 40px;
+}
+
+h1{
+    padding: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-input{
+    max-width: 300px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: .25rem;
+}
